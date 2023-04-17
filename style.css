@@ -1,0 +1,52 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#header {
+  background: linear-gradient(90deg, #043e81 0%, #e46115 100%);
+}
+
+.gradient {
+  background: linear-gradient(90deg, #043e81 0%, #e46115 100%);
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.d-block {
+  display: block;
+  width: fit-content;
+}
+
+.cards {
+  margin-top: 10px;
+  padding: 0 15px;
+  color: #171414;
+  display: grid;
+  gap: 20px;
+}
+
+@media (min-width: 700px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card__suptitle {
+  font-size: 14px;
+}
+
+.card__title {
+  font-size: 20px;
+}
+
+.card__image {
+  margin-top: 10px;
+}
